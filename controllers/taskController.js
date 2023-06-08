@@ -1,5 +1,5 @@
-const Task = require('../models/taskModel');
 const mongoose = require('mongoose');
+const Task = require('../models/taskModel');
 
 const getTasks = async (req, res) => {
   const user_id = req.user._id;
